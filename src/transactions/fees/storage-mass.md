@@ -21,6 +21,6 @@ This constraint can be simplified as follows:
 
 - The KAS amount of any output must not be less than 0.019 KAS (0.02 KAS can be used as a safe cut-off point). Having any output below this amount will result in rejection.
 
-However, while this constraint can be used as a simple general rule for transaction creation, the actual relationship between input and output values allows for some flexibility. For example, you can create two outputs of `0.001` and `0.003` if your input is `0.003`. Additionally, an output of `0.003` can be created if you have an input of `0.007` (you can break down `0.007` into `0.004 + 0.003`), etc.
+However, while this constraint can be used as a simple general rule for transaction creation, the actual relationship between input and output values allows for some flexibility. For example, you can create two outputs of `0.001` and `0.002` if your input is `0.003`. Additionally, an output of `0.003` can be created if you have an input of `0.007` (you can break down `0.007` into `0.004 + 0.003`), etc.
 
 Please see the [Change Outputs](./change-outputs.md) section for more information on handling change outputs.
